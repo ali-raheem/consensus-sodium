@@ -20,7 +20,7 @@ Small library for multiple parties to estbalish a shared random number. Even if 
 ## Build
 
 ```
-gcc -o bin/consensus_test src/test.c src/consensus.c -static -ltomcrypt
+gcc -o bin/consensus_test -lsodium src/consensus.c src/test.c 
 ```
 
 ## Usage

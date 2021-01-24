@@ -2,7 +2,7 @@
 
 Small library for multiple parties to estbalish a shared random number. Even if you are the only honest party.
 
-**This version is not compatible with [consensus](https://github.com/ali-raheem/consensus) which uses libtomcrypt.**
+**This version is not necessarily compatible with [consensus](https://github.com/ali-raheem/consensus) which uses libtomcrypt. But both now use the blake2b-256 hash function.**
 
 ## Algorithim
 

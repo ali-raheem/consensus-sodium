@@ -25,4 +25,4 @@ gcc -o bin/consensus_test -lsodium src/consensus.c src/test.c
 
 ## Usage
 
-See `src/test.c`, each party only generates one secret, disseminating the hash, and then processing/using the secret is left up to the user.
+See `src/test.c`, each party only generates one secret, disseminating the hash, and then the secret is left up to the user. For most applications the secret should be processed for example hashed.

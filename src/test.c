@@ -6,7 +6,7 @@
 
 int main(int argc, char* argv[]) {
 
-  // consensus should be initialised, it will work without (for now)
+  // consensus should be initialised, this initialises libsodium too
   assert(CONSENSUS_INIT_OK == consensus_init());
 
   // lets have a party size of 16, in practice you only make a single secret/hash pair.
